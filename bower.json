@@ -1,0 +1,31 @@
+{
+  "name": "nops-select",
+  "authors": [
+    "soroush <soroush.gh2@gmail.com>"
+  ],
+  "description": "Stupidly simple select directive totally written in angular",
+  "main": "nopsSelect.js",
+  "moduleType": [],
+  "license": "GPL",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-off-click": "~0.0.9",
+    "angular": ">=1.3.3"
+  },
+  "keywords": [
+    "angular",
+    "select-box",
+    "angular-directive",
+    "nops",
+    "nops-select",
+    "angular-select",
+    "angular1"
+  ]
+}

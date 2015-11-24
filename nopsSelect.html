@@ -1,0 +1,17 @@
+<div class="nopsSelect-container" off-click="isHidden = true">
+    <div class="nopsSelect-selection" ng-click="isHidden = !isHidden" tabindex="0" ng-keypress="checkKeyPress($event)">
+        <span class="nopsSelect-selected">{{selectedName}}</span>
+        <span class="nopsSelect-arrow">
+            <b class="fa fa-caret-down" ng-if="isHidden"></b>
+            <b class="fa fa-caret-up" ng-if="!isHidden"></b>
+        </span>
+    </div>
+    <div class="nopsSelect-dropDown" ng-if="!isHidden" tabindex="1">
+        <input type="text" class="search-box" placeholder="Search..." ng-model="searchFilter">
+        <ul class="results">
+            <li class="more-choices" ng-click="selectMore()">More...</li>
+            <li class="line-bk"></li>
+            <li ng-repeat="dt in data| filter:searchFilter" ng-click="selectDt(dt)">{{dt.name}}</li>
+        </ul>
+    </div>
+</div>
