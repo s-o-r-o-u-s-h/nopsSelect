@@ -44,6 +44,7 @@ Usage/Example
 </div>
 ```
 List of attributes:
+
     |   Attribute       |   Definition                                              | Notes                                                          |
     |-------------------|-----------------------------------------------------------|----------------------------------------------------------------|
     |   **dt-list**     |   List of data should be represented by directive         | Array of json objects that should have an id and name property |
