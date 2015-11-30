@@ -40,15 +40,16 @@ Usage/Example
 -------------
 ```html
 <div class="row">
-        <nops-select class="col-sm-4" dt-list="data" value="selected" more="func1()"></nops-select>
+        <nops-select class="col-sm-4" dt-list="data" ng-model="selectedValue" more="func1()"></nops-select>
 </div>
 ```
 List of attributes:
     |   Attribute       |   Definition                                              | Notes                                                          |
     |-------------------|-----------------------------------------------------------|----------------------------------------------------------------|
     |   **dt-list**     |   List of data should be represented by directive         | Array of json objects that should have an id and name property |
-    |   **value**       |   Selected value                                          |                                                                |
+    |   **ng-model**    |   ng-model directive                                      |                                                                |
     |   **more**        |   Function that will be executed upon clicking on more..  |                                                                |
+    |   **is-required** |   determine if this directive required or not             | Optional, Default to false                                     |
 **Note:** All of this attributes are required.
 
 License
@@ -57,6 +58,4 @@ See the `LICENSE.MD` file.
 
 TODO:
 -----
-+ Add validation
-+ Integrate with ngModel
 + Add Enable/Disable functionality
