@@ -12,7 +12,7 @@ This Directive is tested with **angular 1.3.3** and it shouldn't be a problem wi
 found an issue, Please tell [me](mailto:soroush.gh2@gmail.com) to fix it.
 Installation
 ------------
-Download and clone it from github,or install it via bower:
+Download or clone it from github,or install it via bower:
 
 ``` bower install nops-select```
 
