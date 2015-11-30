@@ -44,10 +44,11 @@ Usage/Example
         <nops-select class="col-sm-4" dt-list="data" value="selected" more="func1()"></nops-select>
 </div>
 ```
+
 List of attributes:
 
     |   Attribute       |   Definition                                              | Notes                                                          |
-    |-------------------|-----------------------------------------------------------|----------------------------------------------------------------|
+    | ----------------- | --------------------------------------------------------- | -------------------------------------------------------------- |
     |   **dt-list**     |   List of data should be represented by directive         | Array of json objects that should have an id and name property |
     |   **ngModel**     |   Selected value which is now a ngModel directive         |                                                                |
     |   **more**        |   Function that will be executed upon clicking on more..  |                                                                |
