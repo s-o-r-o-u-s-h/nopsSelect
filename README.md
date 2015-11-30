@@ -47,12 +47,12 @@ Usage/Example
 
 List of attributes:
 
-    |   Attribute       |   Definition                                              | Notes                                                          |
-    | ----------------- | --------------------------------------------------------- | -------------------------------------------------------------- |
-    |   **dt-list**     |   List of data should be represented by directive         | Array of json objects that should have an id and name property |
-    |   **ngModel**     |   Selected value which is now a ngModel directive         |                                                                |
-    |   **more**        |   Function that will be executed upon clicking on more..  |                                                                |
-    |   **is-required   |   Determine whether a value should be required or not     |                                                                |
+| Attribute | Definition | Notes |
+| --------- | ---------- | ----- |
+| dt-list   | List of data should be represented by directive. | Array of json objects that should have an id and name property |
+| ng-model  | Selected value which is now a ngModel directive. |
+| more      | Function that will be executed upon clicking on more.. |
+| is-required|   Determine whether a value should be required or not. |
 
 **Note:** All of this attributes are required.
 
