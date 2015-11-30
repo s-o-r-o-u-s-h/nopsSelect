@@ -58,6 +58,4 @@ See the `LICENSE.MD` file.
 
 TODO:
 -----
-+ Add validation
-+ Integrate with ngModel
 + Add Enable/Disable functionality
