@@ -8,6 +8,7 @@ Dependencies
 ---------------
 For now The only thing you should need is [off-click](https://github.com/TheSharpieOne/angular-off-click) directive. But
 soon, I'll write some code to make it an independent directive.
+
 This Directive is tested with **angular 1.3.3** and it shouldn't be a problem with newer versions of angular. But if you
 found an issue, Please tell [me](mailto:soroush.gh2@gmail.com) to fix it.
 Installation
